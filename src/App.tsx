@@ -45,10 +45,28 @@ function App() {
           >MENU</Typography>
         </Link>
         <Link to="/prompt">
-          <Typography >Prompt</Typography>
+          <Typography
+            sx={{
+              fontSize: 24,
+              color: '#4CAF50', // Green
+              transition: 'color 0.3s ease',
+              '&:hover': {
+                color: '#2196F3', // Blue
+              },
+            }}
+          >Prompt</Typography>
         </Link>
         <Link to="/calculator">
-          <Typography >Calculator</Typography>
+          <Typography
+            sx={{
+              fontSize: 24,
+              color: '#4CAF50', // Green
+              transition: 'color 0.3s ease',
+              '&:hover': {
+                color: '#2196F3', // Blue
+              },
+            }}
+          >Calculator</Typography>
         </Link>
         <AccessibilityNew />
 
